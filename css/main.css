@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    padding-top: 10px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+nav {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+}
+
+header {
+    flex-basis: 50%;
+    display: flex;
+}
+
+ul {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+}
