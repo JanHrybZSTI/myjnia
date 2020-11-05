@@ -22,7 +22,7 @@
         <main>
             <h2>Oblisz kosz usługi</h2>
             <form action="get">
-                <label for="text">Podaj imię: <input type="text" name="text" id="text" value="wpisz swoje imie"></label>
+                <label for="text">Podaj imię: <input type="text" name="text" id="text" placeholder="wpisz swoje imie"></label>
                 <fieldset>
                     <legend>usługa</legend>
                     <p>mycie zewnętrzne 30zł</p>
@@ -39,6 +39,14 @@
                         <option value="bus">bus (+45%)</option>
                     </select>
                 </fieldset>
+                <fieldset>
+                    <legend>karta stałego klienta</legend>
+                    <label for="brak">brak<input type="radio" name="brak" value="brak" id="brak"></label>
+                    <label for="srebrna">srebrna(-5%) <input type="radio" name="srebrna" value="srebrna" id="srebrna"></label>
+                    <label for="zlota">zlota(-15%) <input type="radio" name="zlota" value="zlota" id="zlota"></label>
+                </fieldset>
+                <input type="submit" value="oblicz">
+                <input type="reset" value="wyczyść">
             </form>
         </main>
     </div>
