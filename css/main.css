@@ -88,11 +88,18 @@ ul>li>a:hover {
 main {
     padding: 0.5em;
     flex-basis: 60%;
-    border: 1px solid hsl(0, 100%, 50%);
+    border: 1px solid hsl(240, 50%, 50%);
+    box-shadow: 5px hsl(240, 50%, 50%);
     border-radius: 1em;
     box-shadow: 5px hsl(240, 50%, 50%);
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main>h2 {
+    flex-basis: 100%;
+    text-align: center;
 }
 
 main>form {
@@ -100,7 +107,7 @@ main>form {
 }
 
 .obrazek {
-    flex-basis: 45%;
+    flex-basis: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,8 +118,31 @@ main>p {
     text-align: center;
 }
 
+.button {
+    padding: 0.5em;
+    width: 100px;
+}
+
 fieldset {
-    padding: 1em;
+    border: 1px solid black;
+    padding: 0.5em;
+    margin-bottom: 0.3em;
+    border-left: none;
+    border-bottom: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+fieldset:nth-of-type(2) {
+    border-bottom: 1px solid black;
+}
+
+label {
+    flex-basis: 100%;
+}
+
+input {
+    margin: 0.1em;
 }
 
 aside {
@@ -124,12 +154,12 @@ aside {
 
 aside>h2 {
     margin: 1em;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
 }
 
 aside>article {
-    text-align: justify;
+    text-align: left;
 }
 
 footer {
@@ -143,9 +173,9 @@ footer {
     align-items: center;
 }
 
-footer>h2 {
+.imie_nazwisko_f {
     margin-right: 0.2em;
     font-size: 1em;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.4em;
     color: hsl(0, 100%, 50%);
 }
