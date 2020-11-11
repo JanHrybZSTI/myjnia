@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Jan Hryb">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Myjnia</title>
 </head>
+
 <body>
     <div class="container">
         <nav>
@@ -20,15 +22,19 @@
             </ul>
         </nav>
         <main>
-            <h2>Oblisz kosz usługi</h2>
+            <h2>Oblicz koszt usługi</h2>
             <form action="get">
-                <label for="text">Podaj imię: <input type="text" name="text" id="text" placeholder="wpisz swoje imie"></label>
+                <label for="text">Podaj imię: <input type="text" name="text" id="text"
+                        placeholder="wpisz swoje imie"></label>
                 <fieldset>
                     <legend>usługa</legend>
                     <p>mycie zewnętrzne 30zł</p>
-                    <label for="suszenie">suszenie<input type="checkbox" name="suszenie" value="suszenie" id="suszenie"></label>
-                    <label for="woskowanie">woskowanie <input type="checkbox" name="woskowanie" value="woskowanie" id="woskowanie"></label>
-                    <label for="odkurzanie">odkurzanie <input type="checkbox" name="odkurzanie" value="odkurzanie" id="odkurzanie"></label>
+                    <label for="suszenie">suszenie<input type="checkbox" name="suszenie" value="suszenie"
+                            id="suszenie"></label>
+                    <label for="woskowanie">woskowanie <input type="checkbox" name="woskowanie" value="woskowanie"
+                            id="woskowanie"></label>
+                    <label for="odkurzanie">odkurzanie <input type="checkbox" name="odkurzanie" value="odkurzanie"
+                            id="odkurzanie"></label>
                 </fieldset>
                 <fieldset>
                     <legend>rodzaj pojazdu</legend>
@@ -41,14 +47,29 @@
                 </fieldset>
                 <fieldset>
                     <legend>karta stałego klienta</legend>
-                    <label for="brak">brak<input type="radio" name="brak" value="brak" id="brak"></label>
-                    <label for="srebrna">srebrna(-5%) <input type="radio" name="srebrna" value="srebrna" id="srebrna"></label>
+                    <label for="brak">brak<input type="radio" name="brak" value="brak" id="brak" checked></label>
+                    <label for="srebrna">srebrna(-5%) <input type="radio" name="srebrna" value="srebrna"
+                            id="srebrna"></label>
                     <label for="zlota">zlota(-15%) <input type="radio" name="zlota" value="zlota" id="zlota"></label>
                 </fieldset>
                 <input type="submit" value="oblicz">
                 <input type="reset" value="wyczyść">
             </form>
+            <div class="obrazek">
+                <img src="img/hand_m.jpg" alt="hand_m">
+            </div>
+            <p>Koszt usługi:</p>
         </main>
+        <aside>
+            <h2>Rezerwacja na godzinę</h2>
+            <article>Rezerwacja na godzinę Rezerwuj termin mycia samochodu Masz mało czasu? Nie lubisz czekać?
+                Zarezerwuj mycie pojazdu na konkretną godzinę </article>
+        </aside>
+        <footer>
+            <h2>Imię i Nazwisko</h2>
+            <p>klasa 2P</p>
+        </footer>
     </div>
 </body>
+
 </html>
