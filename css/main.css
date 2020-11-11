@@ -163,6 +163,7 @@ aside>article {
 }
 
 footer {
+    height: 100px;
     margin-top: 1em;
     padding: 2em;
     flex-basis: 100%;
