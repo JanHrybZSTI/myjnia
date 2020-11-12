@@ -23,17 +23,17 @@
         </nav>
         <main>
             <h2>Oblicz koszt usługi</h2>
-            <form action="get">
-                <label for="text">Podaj imię: <input type="text" name="text" id="text"
+            <form action="#">
+                <label for="text">Podaj imię: <input type="text" name="imie" id="text" class="imie"
                         placeholder="wpisz swoje imie"></label>
                 <fieldset>
                     <legend>Usługa</legend>
                     <p>Mycie zewnętrzne 30zł</p>
-                    <label for="suszenie">Suszenie<input type="checkbox" name="suszenie" value="suszenie"
+                    <label for="suszenie">Suszenie<input type="checkbox" name="service" value="suszenie"
                             id="suszenie"></label>
-                    <label for="woskowanie">Woskowanie <input type="checkbox" name="woskowanie" value="woskowanie"
+                    <label for="woskowanie">Woskowanie <input type="checkbox" name="service" value="woskowanie"
                             id="woskowanie"></label>
-                    <label for="odkurzanie">Odkurzanie <input type="checkbox" name="odkurzanie" value="odkurzanie"
+                    <label for="odkurzanie">Odkurzanie <input type="checkbox" name="service" value="odkurzanie"
                             id="odkurzanie"></label>
                 </fieldset>
                 <fieldset>
@@ -47,9 +47,9 @@
                 </fieldset>
                 <fieldset>
                     <legend>Karta stałego klienta</legend>
-                    <label for="brak">Brak<input type="radio" name="brak" value="brak" id="brak" checked></label>
-                    <label for="srebrna">Srebrna (-5%) <input type="radio" name="srebrna" value="srebrna" id="srebrna"></label>
-                    <label for="zlota">Zlota (-15%) <input type="radio" name="zlota" value="zlota" id="zlota"></label>
+                    <label for="brak">Brak<input type="radio" name="karta" value="brak" id="brak" checked></label>
+                    <label for="srebrna">Srebrna (-5%) <input type="radio" name="karta" value="srebrna" id="srebrna"></label>
+                    <label for="zlota">Zlota (-15%) <input type="radio" name="karta" value="zlota" id="zlota"></label>
                 </fieldset>
                 <input type="submit" value="Oblicz" class="button">
                 <input type="reset" value="Wyczyść" class="button">
